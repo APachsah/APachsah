@@ -1,0 +1,26 @@
+Git Commands:
+
+(1) create remote repository:
+ git clone <url of remote repository>
+(2) create a local repository:
+ git init
+(3) configure the repository:
+ git remote add<name> <url of remote repository>
+(4) adding files:
+git add <files and it's path>
+(5) creating a repository:
+mkdir gitdemo
+cd  gitdemo
+pwd
+(6) the mkdir command is used in creation of repositories and folders
+(7) creation of empty folders:
+mkdir rose
+cd rose
+pwd
+(8) the cd command is used to check the existance of the folder given
+(9) pwd->this command is used to check the exiting files
+(10) git help
+(11) config----global username.libya
+(12)config----global email.libya@gmail.com
+
+
