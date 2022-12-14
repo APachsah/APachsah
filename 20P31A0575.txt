@@ -1,0 +1,54 @@
+Git Commands
+(1)git configuration:
+git config –global user.name “[name]”  
+git config –global user.email “[email address]”  
+This command sets the author name and email address respectively to be used with your commits.
+(2)git starting repository
+git init
+git init [repository name]
+This command is used to start a new repository.git clone
+git clone [url]  
+This command is used to obtain a repository from an existing URL.
+git add:
+git add [file]  
+This command adds a file to the staging area.
+git add *  
+This command adds one or more to the staging area.
+git commit
+git commit -m “[ Type in the commit message]”  
+git commit -a  
+git reset
+git reset [file]  
+git show
+git show [commit]
+git branching :
+git branch  
+This command lists all the local branches in the current repository.
+git branch [branch name]  
+This command creates a new branch.
+git branch -d [branch name]  
+This command deletes the feature branch.
+git merge commands:
+git merge [branch name]  
+This command merges the specified branch’s history into the current branch.
+git remote
+git remote add [variable name] [Remote Server Link]  
+This command is used to connect your local repository to the remote server.
+git push commands:
+git push [variable name] master  
+git push [variable name] [branch]  
+git push –all [variable name]  
+This command pushes all branches to your remote repository.
+git push [variable name] :[branch name]  
+git pull
+Usage: git pull [Repository Link]  
+This command fetches and merges changes on the remote server to your working directory.
+git stash commad:
+git stash save  
+This command temporarily stores all the modified tracked files.
+
+
+
+
+
+
